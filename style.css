@@ -59,9 +59,7 @@ kbd {
   border-radius: 2px;
   font-size: 0.85em;
   color: #EEE;
-  padding: 0px;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 0 3px;
 }
 
 a {
@@ -70,11 +68,7 @@ a {
 
 .tip {
   color: #0ba781;
-  padding-top: 1px;
-  padding-right: 10px;
-  padding-bottom: 1px;
-  padding-left: 10px;
-
+  padding: 1px 10px;
   background-color: #222;
 
 }
@@ -98,11 +92,9 @@ a.out-contents-link2 {
 }
 
 .title-box {
-  margin: auto;
+  margin: -11px auto -22px;
   width: 40%;
-  padding-left: 0px;
-  margin-bottom: -22px;
-  margin-top: -11px;
+  padding-left: 0;
   display: inline-block;
 }
 
@@ -125,7 +117,7 @@ a.out-contents-link2 {
 }
 
 #main-head {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #subtitle {
